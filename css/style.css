@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+#spone{
+    float: left;
+    margin-left: 100px;
+}
+li {
+list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+float: right;
+padding: 1px;
+
+}
+
+#twice{
+    margin-right: 60px;
+}
+header ul{
+    margin-right: 100px;
+
+}
+header ol{
+    margin-left: 110px;
+
+}
+#repeat{
+    background-repeat: repeat space;
+    background-repeat: repeat repeat;
+    background-repeat: round space;
+}
+#line{
+    text-decoration: line-through;
+}
+form {
+    background-image: url("../img/list-bg.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    font-size: 20px;
+}
+ul fieldset{
+    width: 250px;
+    float: right;
+    border:none;
+    
+}
+ol fieldset{
+    width: 250px;
+    float: left;
+    border:none;
+}
