@@ -11,15 +11,15 @@ list-style: none;
 }
 
 header ul li{
+    float: right;
     display: inline-block;
-float: right;
 padding: 1px;
 
 }
 
 
 #twice{
-    margin-right: 60px;
+    margin-right: 70px;
 }
 
 header ol{
@@ -30,11 +30,7 @@ header ul{
     margin-right: 10px;
 
 }
-/* #repeat{
-    background-image: url("img/hr-img.png");
-background-repeat: repeat;  
-padding: 5px; 
-  } */
+
 #line{
     text-decoration: line-through;
 }
@@ -45,17 +41,18 @@ form {
     padding: 50px 50px;
     font-size: 20px;
 }
-nav,main{
+header,main{
     margin: 40px 220px 50px 200px;
    
 }
 header nav ul li{
     margin-top: 20px;
 }
-header nav{
-    background-image: url("img/hr-img.png");
-    background-repeat: repeat;
-    padding: 5px;
+
+#s{
+    margin-top: 50px;
+    width: 905px;
+    margin-bottom: 30px;
 }
 main h1{
 font-family: 'Anton', sans-serif;
@@ -120,8 +117,7 @@ section{
     float: left;
     border:none;
     font-size: 25px;
-
-
+    
 }
 #second{
     border:none;
