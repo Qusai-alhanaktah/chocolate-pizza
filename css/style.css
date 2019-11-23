@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
 #spone{
     float: left;
-    margin-left: 100px;
+    height: 46px;
+    width: 50px;
+    margin-top: 5px;
 }
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 li {
 list-style: none;
 }
@@ -14,22 +17,24 @@ padding: 1px;
 
 }
 
+
 #twice{
     margin-right: 60px;
 }
-header ul{
-    margin-right: 100px;
 
-}
 header ol{
-    margin-left: 110px;
+    margin-left: 10px;
 
 }
-#repeat{
-    background-repeat: repeat space;
-    background-repeat: repeat repeat;
-    background-repeat: round space;
+header ul{
+    margin-right: 10px;
+
 }
+/* #repeat{
+    background-image: url("img/hr-img.png");
+background-repeat: repeat;  
+padding: 5px; 
+  } */
 #line{
     text-decoration: line-through;
 }
@@ -40,14 +45,113 @@ form {
     padding: 50px 50px;
     font-size: 20px;
 }
-ul fieldset{
-    width: 250px;
-    float: right;
-    border:none;
-    
+nav,main{
+    margin: 40px 220px 50px 200px;
+   
 }
-ol fieldset{
-    width: 250px;
+header nav ul li{
+    margin-top: 20px;
+}
+header nav{
+    background-image: url("img/hr-img.png");
+    background-repeat: repeat;
+    padding: 5px;
+}
+main h1{
+font-family: 'Anton', sans-serif;
+font-size: 40px;
+}
+main h3{
+    margin-top: -30px;
+}
+main ul li{
+    float: right;
+    display:inline-block;
+    margin-top: -40px;
+    margin-right: 15px;
+}
+#print{
+    margin-right: 39px;
+}
+#line{
+    text-decoration: line-through;
+}
+form {
+    background-image: url("../img/list-bg.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+#amora{
+    float: left;
+}
+ button{
+    float: right;
+    background-color:rgb(173, 82, 82);
+    width: 180px;
+    height: 55px;
+    color: white;
+    margin-top: -65px ;
+    margin-left: -20px;
+}
+section{
+    margin-top: 40px;
+
+}
+#Name{
+    float: left;
+    font: bold;
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+#text{
+    font-size: 20px;
+    margin-top: -25px;
+    float: left;
+    margin-left: 20px;
+    opacity: 70%;
+}
+
+#logo{
+    display: block;
+    margin:0px auto;
+}
+#first{
     float: left;
     border:none;
+    font-size: 25px;
+
+
+}
+#second{
+    border:none;
+    margin-left: 400px;
+    font-size: 25px;
+}
+#small{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -26px;
+}
+hr{
+    margin-top: 80px;
+    opacity: 10%;
+    margin-right: 220px;
+    margin-left: 200px;
+
+}
+#footer{
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+}
+#footerr{
+    text-align: center;
+    color: grey;
+    margin-top: -30px;
+}
+fieldset li{
+    padding: 3px;
+    margin-top: -5px;
 }
